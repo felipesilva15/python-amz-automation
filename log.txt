@@ -1,0 +1,20 @@
+2023-09-14 14:33:30 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:33:30 - WARNING - Esta é uma mensagem de aviso
+2023-09-14 14:33:30 - ERROR - Esta é uma mensagem de erro
+2023-09-14 14:33:30 - CRITICAL - Esta é uma mensagem crítica
+2023-09-14 14:33:30 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:33:30 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:37:33 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:37:33 - WARNING - Esta é uma mensagem de aviso
+2023-09-14 14:37:33 - ERROR - Esta é uma mensagem de erro
+2023-09-14 14:37:33 - CRITICAL - Esta é uma mensagem crítica
+2023-09-14 14:37:33 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:37:33 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:37:33 - ERROR - Ocorreu uma exceção: division by zero
+2023-09-14 14:42:12 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:42:12 - WARNING - Esta é uma mensagem de aviso
+2023-09-14 14:42:12 - ERROR - Esta é uma mensagem de erro
+2023-09-14 14:42:12 - CRITICAL - Esta é uma mensagem crítica
+2023-09-14 14:42:12 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:42:12 - INFO - Esta é uma mensagem informativa
+2023-09-14 14:42:12 - CRITICAL - Ocorreu uma exceção: division by zero
