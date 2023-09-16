@@ -17,10 +17,10 @@ import sys
 logging.basicConfig(filename='log.txt', level=logging.INFO, encoding='utf-8', format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 # Definir um manipulador para registrar exceções em um arquivo de log
-def excecao_handler(type, value, traceback):
+def exception_handler(type, value, traceback):
     logging.critical("Exceção não tratada:", exc_info=(type, value, traceback))
 
-sys.excepthook = excecao_handler
+sys.excepthook = exception_handler
 
 try:
     # Carrega as variáveis de ambiente do arquivo .env
@@ -110,6 +110,7 @@ try:
 
     # Navega para a página de upload de XMLs
     driver.get(bling_baseurl + '/notas.fiscais.php#list')
+    time.sleep(3)
 
     # Acessa o modal de importação notas por XML
     more_options_button = driver.find_element(By.CSS_SELECTOR, 'span.open-more-actions')
@@ -135,6 +136,7 @@ try:
         # Clica no container de upload de XML
         upload_container = driver.find_element(By.CSS_SELECTOR, 'div.qq-uploader')
         mouse.move_to_element(upload_container).click().perform()
+        time.sleep(1)
 
         # Preenche o caminho completo de onde está o arquivo e o seleciona
         full_path = os.path.join(xml_download_folder, xml_file_name)

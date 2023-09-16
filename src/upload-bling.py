@@ -65,6 +65,7 @@ time.sleep(8)
 
 # Navega para a página de upload de XMLs
 driver.get(bling_baseurl + '/notas.fiscais.php#list')
+time.sleep(3)
 
 # Acessa o modal de importação notas por XML
 more_options_button = driver.find_element(By.CSS_SELECTOR, 'span.open-more-actions')
@@ -87,6 +88,7 @@ for xml_file_name in xml_downloaded_files:
     # Clica no container de upload de XML
     upload_container = driver.find_element(By.CSS_SELECTOR, 'div.qq-uploader')
     mouse.move_to_element(upload_container).click().perform()
+    time.sleep(1)
 
     # Preenche o caminho completo de onde está o arquivo e o seleciona
     full_path = os.path.join(xml_download_folder, xml_file_name)

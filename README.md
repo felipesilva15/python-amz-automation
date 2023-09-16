@@ -9,3 +9,4 @@
 - Selenium: ```pip install selenium```
 - Python DotEnv: ```pip install python-dotenv```
 - Pyautogui: ```pip install pyautogui```
+- Pyinstaller: ```pip install pyinstaller```
